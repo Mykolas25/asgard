@@ -12,5 +12,9 @@
     <div class="row">
         <h1>{{ $page->title }}</h1>
         {!! $page->body !!}
+
+        {{dd($page->toArray())}}
+        {!! $page->og_description !!}
+
     </div>
 @stop
