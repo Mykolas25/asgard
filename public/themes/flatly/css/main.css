@@ -1254,6 +1254,7 @@ h1,
 h2,
 .h2 {
   font-size: 32px;
+  text-align: center;
 }
 h3,
 .h3 {
@@ -8866,3 +8867,17 @@ p.small {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+.homepageImg
+{
+  box-sizing: inherit;
+}
+
+.navbar navbar-default navbar-fixed-top
+{
+  box-sizing: inherit;
+}
+
+

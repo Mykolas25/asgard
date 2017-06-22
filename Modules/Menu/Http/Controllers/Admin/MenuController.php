@@ -39,8 +39,10 @@ class MenuController extends AdminBaseController
     public function index()
     {
         $menus = $this->menu->all();
-
+//        dd(Menu::get()->toArray());
         return view('menu::admin.menus.index', compact('menus'));
+
+
     }
 
     public function create()

@@ -2,6 +2,7 @@
 
 namespace Modules\Page\Sidebar;
 
+
 use Maatwebsite\Sidebar\Badge;
 use Maatwebsite\Sidebar\Group;
 use Maatwebsite\Sidebar\Item;
